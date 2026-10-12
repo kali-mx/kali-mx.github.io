@@ -36,7 +36,7 @@
     }
     h1 { margin: 0 0 6px 0; font-size: 28px; line-height: 1.2; }
     .tagline { margin: 0; color: var(--muted); }
-    .actions { margin-top: 12px; display: flex; gap: 10px; flex-wrap: wrap; }
+    .actions { margin-top: 12px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
     .btn {
       display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; border-radius: 10px; border: 1px solid var(--border);
       background: var(--panel); color: var(--text); text-decoration: none; font-weight: 600;
@@ -58,7 +58,7 @@
     .meta { color: var(--muted); font-size: 14px; }
     .links { margin-top: auto; display: flex; gap: 12px; flex-wrap: wrap; }
     footer { color: var(--muted); font-size: 13px; margin: 24px 0 8px; text-align: center; }
-    .pill { font-size: 12px; border:1px solid var(--border); border-radius: 999px; padding: 4px 8px; color: var(--muted); }
+    .pill { display: inline-flex; align-items: center; justify-content: center; font-size: 12px; border:1px solid var(--border); border-radius: 999px; padding: 4px 8px; color: var(--muted); }
   </style>
 </head>
 <body>
@@ -84,36 +84,24 @@
           <h3><a href="https://github.com/kali-mx/AutoChef" target="_blank" rel="noopener">AutoChef</a></h3>
           <p>Automating <strong>CyberChef</strong> workflows to solve CTF hash challenges quickly and reproducibly.</p>
           <p class="meta">CTF tooling · Automation</p>
-          <div class="links">
-            <a href="https://github.com/kali-mx/AutoChef" target="_blank" rel="noopener">Repository</a>
-          </div>
         </article>
 
         <article class="card">
           <h3><a href="https://github.com/kali-mx/CVE-20223-38408" target="_blank" rel="noopener">CVE-2023-38408 PoC</a></h3>
           <p>Proof-of-Concept for the <strong>critical OpenSSH</strong> vuln (versions &lt; 9.3p2). Demo and notes for safe testing.</p>
           <p class="meta">Vulnerability research</p>
-          <div class="links">
-            <a href="https://github.com/kali-mx/CVE-20223-38408" target="_blank" rel="noopener">Repository</a>
-          </div>
         </article>
 
         <article class="card">
           <h3><a href="https://github.com/kali-mx/hcat_speed_run" target="_blank" rel="noopener">hcat_speed_run</a></h3>
           <p>Estimate time to crack a password with Hashcat. Practical for reporting and strategy.</p>
           <p class="meta">Passwords · Performance</p>
-          <div class="links">
-            <a href="https://github.com/kali-mx/hcat_speed_run" target="_blank" rel="noopener">Repository</a>
-          </div>
         </article>
 
         <article class="card">
           <h3><a href="https://github.com/kali-mx/CodePath" target="_blank" rel="noopener">CodePath</a></h3>
           <p>Mario Kart starter project for iOS, a learning track with experiments.</p>
           <p class="meta">iOS · Swift · Learning</p>
-          <div class="links">
-            <a href="https://github.com/kali-mx/CodePath" target="_blank" rel="noopener">Repository</a>
-          </div>
         </article>
 
         <article class="card">
@@ -121,7 +109,6 @@
           <p>Methodology-first TryHackMe and CTF breakdowns; ongoing documentation of methods and lessons learned.</p>
           <p class="meta">Writeups · Notes</p>
           <div class="links">
-            <a href="https://kali-mx.github.io/BlogContent/" target="_blank" rel="noopener">Read Writeups</a>
             <a href="https://github.com/kali-mx/BlogContent" target="_blank" rel="noopener">Repository</a>
           </div>
         </article>
